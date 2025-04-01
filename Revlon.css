@@ -10,3 +10,15 @@ body {
     word-wrap: break-word; /* Permite que el texto se divida en varias líneas */
     overflow-wrap: break-word;
 }
+
+<style>
+.product {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.product a {
+    flex: 1;
+    word-wrap: break-word;
+}
+</style>
