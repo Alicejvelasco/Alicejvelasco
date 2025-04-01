@@ -4,21 +4,19 @@ body {
   color: white;
   text-align: center;
 }
-.product a {
-    display: inline-block;
-    max-width: 80%; /* Ajusta según sea necesario */
-    word-wrap: break-word; /* Permite que el texto se divida en varias líneas */
-    overflow-wrap: break-word;
-}
 
-<style>
+
 .product {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 10px; /* Espacio entre la imagen y el texto */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas */
 }
+
 .product a {
     flex: 1;
     word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 80%; /* Limita el ancho para evitar que el texto se desborde */
+    white-space: normal; /* Asegura que el texto se divida en varias líneas */
 }
-</style>
