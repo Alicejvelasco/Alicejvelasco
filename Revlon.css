@@ -1,7 +1,7 @@
 body {
   font-family: system-ui;
   background: #f06d06;
-  color: white;
+  color: red;
   text-align: center;
 }
 
@@ -17,6 +17,6 @@ body {
     flex: 1;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    max-width: 80%; /* Limita el ancho para evitar que el texto se desborde */
+    max-width: 40%; /* Limita el ancho para evitar que el texto se desborde */
     white-space: normal; /* Asegura que el texto se divida en varias líneas */
 }
