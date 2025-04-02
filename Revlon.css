@@ -1,0 +1,26 @@
+.product {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre la imagen y el texto */
+    flex-wrap: wrap; /* Evita que el texto se desborde */
+}
+
+.product img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-text {
+    flex: 1; /* Hace que el texto ocupe el espacio disponible */
+    max-width: 70%;
+}
+
+.product a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
