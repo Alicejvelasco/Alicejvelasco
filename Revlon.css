@@ -1,48 +1,26 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 20px;
-    background-color: #f9f9f9;
-}
-
-.container {
-    max-width: 800px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    text-align: center;
-}
-
-/* Ajustes para la estructura de los productos */
 .product {
     display: flex;
     align-items: center;
     gap: 10px; /* Espacio entre la imagen y el texto */
-    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas */
+    flex-wrap: wrap; /* Evita que el texto se desborde */
 }
 
 .product img {
     max-width: 100px;
     height: auto;
-    vertical-align: middle;
-    border-radius: 5px; /* Bordes redondeados para mejor estética */
+    border-radius: 5px;
 }
 
 .product-text {
-    max-width: 70%; /* Ajusta el tamaño del contenedor del texto */
+    flex: 1; /* Hace que el texto ocupe el espacio disponible */
+    max-width: 70%;
 }
 
 .product a {
-    display: block;
     text-decoration: none;
     color: #0073e6;
     font-weight: bold;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    white-space: normal; /* Asegura que el texto se divida en varias líneas */
+    white-space: normal;
 }
