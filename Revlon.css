@@ -27,8 +27,8 @@ h1 {
 }
 
 .product img {
-    width: 40px; /* Tamaño más pequeño para la imagen */
-    height: auto;
+    width: 80px; /* Tamaño más pequeño para la imagen */
+    height; 50px
     border-radius: 5px; /* Bordes redondeados */
 }
 
